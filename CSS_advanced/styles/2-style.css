@@ -5,25 +5,25 @@ html {
 
 /* Foreground color for body */
 body {
-  color: #161616
+  color: var(--text-color);
 }
 
 /* Foreground color for anchor */
 a {
-  color: #161616
+  color: var(--text-color);
 }
 
 /* Display color for hidden elements */
 .visually-hidden {
-  color: none
+  display: none
 }
 
 /* Foreground color for card category */
 .card-category {
-  color: #D73953
+  color: var(--color-primary);
 }
 
 /* Foreground color for section tagline */
 .section-tagline {
-  color: #D73953
+  color: var(--color-primary);
 }
