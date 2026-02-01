@@ -13,9 +13,13 @@
 html {
   scroll-behavior: smooth;
 }
-/* Foreground color and font for body and anchor */
-body, a {
+/* Foreground color and font for body */
+body {
   font-family: var(--font-family-base);
+  color: var(--text-color);
+}
+/* Foreground color for anchor */
+a {
   color: var(--text-color);
 }
 /* Hide visually hidden elements */
