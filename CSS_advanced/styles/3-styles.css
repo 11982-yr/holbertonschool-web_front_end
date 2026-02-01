@@ -1,8 +1,3 @@
-/* Smooth scrolling on the page */
-html {
-  scroll-behavior: smooth;
-}
-
 /* Root element colors */
 :root {
   --color-primary: #d73953;
@@ -12,17 +7,18 @@ html {
   --color-dark-grey: #353535;
   --text-color: var(--color-black);
 }
-
+/* Smooth scrolling on the page */
+html {
+  scroll-behavior: smooth;
+}
 /* Foreground color for body and anchor */
 body, a {
   color: var(--text-color);
 }
-
 /* Hide visually hidden elements */
 .visually-hidden {
   display: none;
 }
-
 /* Foreground color for card category and section tagline */
 .card-category, .section-tagline {
   color: var(--color-primary);
