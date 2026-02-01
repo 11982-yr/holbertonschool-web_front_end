@@ -1,10 +1,10 @@
 /* Smooth scrolling on the page */
 html {
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
 /* Root element colors */
-root {
+:root {
   --color-primary: #d73953;
   --color-black: #090909;
   --color-white: #ffffff;
@@ -25,7 +25,7 @@ a {
 
 /* Hide visually hidden elements */
 .visually-hidden {
-  display: none
+  display: none;
 }
 
 /* Foreground color for card category */
