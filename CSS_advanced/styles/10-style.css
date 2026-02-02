@@ -1,4 +1,4 @@
-/* Root element colors and fonts */
+/* Root element colors, fonts and section header alignment  */
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -18,6 +18,11 @@
   --line-height-small: 1.2;
   --line-height-base: 1.5;
   --line-height-big: 1.8;
+  --section-header-align: center;
+}
+/* Section header alignment */
+.section-header {
+  text-align: var(--section-header-align);
 }
 /* Smooth scrolling on the page */
 html {
@@ -55,3 +60,4 @@ h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
+
