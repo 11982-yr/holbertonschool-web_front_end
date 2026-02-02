@@ -45,6 +45,20 @@ a[href] {
   color: var(--text-color);
   text-decoration: none;
 }
+/* Visited links */
+a[href]:visited {
+  font-style: italic;
+}
+
+/* Hover links */
+a[href]:hover {
+  text-decoration: underline;
+}
+
+/* Active links */
+a[href]:active {
+  background-color: var(--color-light-grey);
+}
 /* Hide visually hidden elements */
 .visually-hidden {
   display: none;
@@ -77,3 +91,4 @@ h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
+
