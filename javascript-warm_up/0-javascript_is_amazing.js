@@ -1,1 +1,2 @@
-document.querySelector('header').style.color = '#FF0000';
+const myVar = 'JavaScript is amazing';
+console.log(myVar);
